@@ -714,7 +714,15 @@ window.addRequireLoadCallback(function() {
     </section>
 </div>
 <script>
-  // Our timer logic will go here!
+  let timeLeft = 25 * 60; // 25 minutes converted to seconds
+let timerId = null; 
+
+// Grab the elements from our HTML
+const displayElement = document.getElementById("time-display");
+const startButton = document.getElementById("start-btn");
+const pauseButton = document.getElementById("pause-btn");
+const resetButton = document.getElementById("reset-btn");
+// Our timer logic will go here!
 </script>
 
 </script></body></html><!--status=200-->
